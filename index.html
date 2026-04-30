@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matagorda Off-Road Recovery Flag — Custom Stock</title>
+    <style>
+        :root {
+            --bg-dark: #000000;
+            --bg-gray: #1a1a1a;
+            --gold: #d4af37;
+            --white: #ffffff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-gray) 100%);
+            color: var(--white);
+            line-height: 1.6;
+        }
+
+        header {
+            background: var(--bg-dark);
+            border-bottom: 4px solid var(--gold);
+            padding: 2rem 1rem;
+        }
+
+        .header-content { max-width: 1000px; margin: 0 auto; }
+
+        h1 { color: var(--gold); font-size: 3.5rem; text-transform: uppercase; }
+
+        main { max-width: 1000px; margin: 0 auto; padding: 3rem 1rem; }
+
+        .hero-section { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
+
+        .hero-text h2 { color: var(--gold); font-size: 2.2rem; margin-bottom: 1.5rem; }
+
+        .specs {
+            background: rgba(212, 175, 55, 0.1);
+            border-left: 4px solid var(--gold);
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .specs-label { color: var(--gold); font-weight: 700; }
+        .specs-value { color: var(--white); font-weight: 700; }
+
+        .flag-image-container {
+            border: 3px solid var(--gold);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .contact-section {
+            background: rgba(255, 255, 255, 0.05);
+            border: 3px solid var(--gold);
+            padding: 2.5rem;
+            border-radius: 8px;
+        }
+
+        .contact-section h3 { color: var(--gold); }
+
+        .contact-icon { color: var(--gold); }
+
+        .price-box {
+            background: var(--gold);
+            padding: 2rem;
+            color: var(--bg-dark);
+            border-radius: 8px;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: var(--gold);
+            color: var(--bg-dark);
+            padding: 1rem 2.5rem;
+            text-decoration: none;
+            font-weight: 700;
+            display: inline-block;
+        }
+
+        .btn-secondary {
+            border: 2px solid var(--gold);
+            color: var(--gold);
+            padding: 1rem 2.5rem;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        footer { background: #0f0f0f; border-top: 2px solid var(--gold); padding: 2rem; text-align: center; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Matagorda Recovery Flag</h1>
+            <p>Custom Stock Available → Limited Quantity</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-text">
+                <h2>Built for the Road Ahead</h2>
+                <p>We printed extra custom flags for the community. Built to last.</p>
+                <div class="specs">
+                    <div class="specs-line"><span class="specs-label">Material:</span> <span class="specs-value">Heavy Duty</span></div>
+                </div>
+            </div>
+            <div class="flag-image-container">
+                <img src="images/flag.jpg" alt="Flag" style="width: 100%; display: block;">
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <h3>Get in Touch</h3>
+            <img src="images/qr-code.png" alt="QR Code" style="width: 200px; border: 3px solid var(--gold);">
+        </section>
+
+        <section class="cta-section" style="text-align: center; margin-top: 3rem;">
+            <div class="price-box"><strong>Price: $75</strong></div>
+            <br><br>
+            <a href="https://link.waveapps.com/dra85k-jsmkda" class="btn-primary">Checkout</a>
+        </section>
+    </main>
+</body>
+</html>
